@@ -1,4 +1,30 @@
+body {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, black-letter;
+}
+
 article {
-  background-color: darkgray;
+  background-color: rgb(193, 189, 189);
   border: 1px solid black;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow:  10px 10px 5px darkslategray;
+  width: 200px;
+  margin: 30px; 
+  padding: 20px
+}
+
+h1{
+  font-size: 3em;
+  text-align: center;
+}
+content {
+  display: flexbox;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: stretch;
+  flex-wrap: wrap;
 }
